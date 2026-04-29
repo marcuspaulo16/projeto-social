@@ -16,6 +16,7 @@ body {
     background: url(../imagens/bg2.jpg);
     background-size: cover ;
     background-position: center;
+    background-attachment: fixed;
 }
 
 main {
@@ -33,4 +34,32 @@ section#telefone {
     width: 830px;
     background-color: green ;
     background: url(../imagens/computador.png);
+}
+
+iframe#tela {
+    border-radius: 9px 9px 0px 0px;
+    position: relative;
+    top: 11px;
+    left: 141px;
+    width: 539px;
+    height: 355px;
+}
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px gold;
+    box-sizing: border-box;
+}
+
+section#redes img:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px white;
+    transform: translate(-2px, -2px);
+    transition: transform .3s;
 }
