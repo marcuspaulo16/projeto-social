@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url(../imagens/bg2.jpg);
+    background: url(../imagens/notebook.png);
     background-size: cover ;
     background-position: center;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ main {
     position: relative;
 }
 
-section#telefone {
+section#note {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +33,7 @@ section#telefone {
     height: 445px;
     width: 830px;
     background-color: green ;
-    background: url(../imagens/computador.png);
+    background: url(../imagens/computador-oficial.png);
 }
 
 iframe#tela {
